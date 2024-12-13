@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carnet de Recettes</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+ <header>
+    <div class="header-container">
+        <div class="header-text">
+            <h1>Carnet de Recettes</h1>
+            <p>Organisez vos recettes de manière simple et élégante.</p>
+        </div>
+        <div class="header-image">
+            <img src="images/autumn-pie.jpg" alt="Gâteau d'automne">
+        </div>
+    </div>
+</header>
+
+
+  <main>
+    <div class="main-container">
+      <div class="form-section">
+        <h2>Bienvenue sur Carnet de Recettes</h2>
+        <p>Connectez-vous ou inscrivez-vous pour commencer à organiser vos recettes !</p>
+        
+        <form id="signUpForm">
+          <h3>Inscription</h3>
+          <input type="email" id="signUpEmail" placeholder="Email" required>
+          <input type="password" id="signUpPassword" placeholder="Mot de passe" required>
+          <button type="submit">S'inscrire</button>
+        </form>
+        
+        <form id="signInForm">
+          <h3>Connexion</h3>
+          <input type="email" id="signInEmail" placeholder="Email" required>
+          <input type="password" id="signInPassword" placeholder="Mot de passe" required>
+          <button type="submit">Se connecter</button>
+        </form>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-container">
+        <p>&copy; 2024 Carnet de Recettes. Tous droits réservés.</p>
+    </div>
+</footer>
+
+  <script src="js/models.js"></script>
+  <script src="js/vues.js"></script>
+  <script src="js/controleur.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
